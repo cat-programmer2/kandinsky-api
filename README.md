@@ -1,5 +1,5 @@
 # kandinsky-api
-Unofficial API for Kandinsky 2.2 by Sber AI.
+Unofficial API for Kandinsky 2.2 txt2img model by Sber AI.
 
 This API parses fusionbrain.ai website and may stop working if Fusionbrain request system changes.
 

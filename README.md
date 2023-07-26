@@ -1,15 +1,15 @@
 # kandinsky-api
-Unofficial API for Kandinsky 2.2 txt2img model by Sber AI.
+Unofficial API for Kandinsky 2.2 txt2img model by Sber AI. This model 
 
 This API parses fusionbrain.ai website and may stop working if Fusionbrain request system changes.
 
 `kandinsky.py` contains single `generate()` method that is used to generate images:
 
-- `prompt` - Text prompt for txt2img generation
+- `prompt` - Text prompt for txt2img generation, can be in English or in Russian. Some example of good prompt would be: `cosy wooden hut interior, photo`
 - `style` - Kandinsky 2.2 supports different image styles. Available styles are currently unknown.
-- `width` - Image width, from 1 to 1024
-- `height` - Image height, from 1 to 1024
-- `timeout` - When timer exceeds this value, TimeoutError will be raised. Set to -1 to disable timeout.
+- `width` - Image width, from 1 to 1024;
+- `height` - Image height, from 1 to 1024;
+- `timeout` - If server won't return generation with this amount of seconds, TimeoutError will be raised. Set to -1 to disable timeout.
 
 `test.py` demonstrates example of library usage, generating a cat image and saving it to the same folder:
 ```

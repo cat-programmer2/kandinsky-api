@@ -1,5 +1,5 @@
 # kandinsky-api
-Unofficial API for Kandinsky 2.2 txt2img model by Sber AI. This model 
+Unofficial API for Kandinsky 2.2 txt2img model by Sber AI. This model can generate high-quality images of any resolution up to 1024*1024 by text prompt.
 
 This API parses fusionbrain.ai website and may stop working if Fusionbrain request system changes.
 
